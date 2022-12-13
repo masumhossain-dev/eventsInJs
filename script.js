@@ -14,7 +14,7 @@ function makeGreenColor (){
   document.body.style.backgroundColor = 'green';
 }
 
-// option Three Another
+// option Three Another [we will use this sometime]
 let makePurple = document.getElementById('make-purple');
 makePurple.onclick = function makePurpleColor(){
   document.body.style.backgroundColor = 'purple';
