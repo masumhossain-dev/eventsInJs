@@ -1,5 +1,5 @@
 // option One 
-// {/* <button onclick="document.body.style.backgroundColor = 'red'">Red</button>  */}
+/*<button onclick="document.body.style.backgroundColor = 'red'">Red</button>*/
 
 // option Two 
 function colorBlue (){
@@ -31,4 +31,9 @@ function makePinkColor (){
 let makeYellow = document.getElementById('make-yellow');
 makeYellow.addEventListener('click', function makeYellowColor(){
   document.body.style.backgroundColor = 'yellow';
+})
+
+// option Four Final 
+document.getElementById('make-goldenrod').addEventListener('click', function(){
+  document.body.style.backgroundColor = 'goldenrod';
 })
